@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loging page</title>
+    <style>
+        body{
+            background-color:  #f0f2f5;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container{
+            background-color: rgb(255, 255, 255);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .login-container h1{
+            text-align: center;
+            color: #1877f2;
+        }
+        .login-container input{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+
+        }
+        .login-container button{
+        width:100%;
+        padding: 10px;
+        background-color:#1877f2;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #145db2;
+        }
+
+    </style>
+</head>
+<body>
+   <center>  <div class="login-container">
+        <h1>Facebook</h1>
+        <input type="text" placeholder="email or phone number" required> 
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Log In</button>
+        <h5><a target="_blank" href="">forgot password?</a> <a target="_blank" href="https://www.facebook.com/r.php">sign in </a></h5>
+    </div></center>
+
+</body>
+</html>
